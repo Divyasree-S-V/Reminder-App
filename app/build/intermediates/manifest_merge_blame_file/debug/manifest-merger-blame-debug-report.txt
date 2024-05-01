@@ -1,0 +1,82 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.reminderapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+11-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:5:5-81
+11-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:5:22-78
+12
+13    <application
+13-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:7:5-37:19
+14        android:allowBackup="true"
+14-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.5.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a943be3b742b145f13cdb42d1a07dbb3\core-1.5.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/logo"
+17-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:9:9-36
+18        android:label="ReminderApp"
+18-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:10:9-36
+19        android:roundIcon="@mipmap/logo"
+19-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:11:9-41
+20        android:supportsRtl="true"
+20-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:13:9-40
+23        <activity android:name="com.example.reminderapp.SplashActivity" >
+23-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:14:9-20:36
+23-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:15:13-43
+24            <intent-filter>
+24-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:16:9-20:25
+25                <action android:name="android.intent.action.MAIN" />
+25-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:17:13-65
+25-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:17:21-62
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:19:13-73
+27-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:19:23-70
+28            </intent-filter>
+29        </activity>
+30        <activity android:name="com.example.reminderapp.NotificationMessage" />
+30-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:21:9-57
+30-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:21:19-54
+31        <activity android:name="com.example.reminderapp.CreateEvent" />
+31-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:22:9-49
+31-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:22:19-46
+32        <activity android:name="com.example.reminderapp.MainActivity" >
+32-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:23:9-25:20
+32-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:23:19-47
+33        </activity>
+34
+35        <receiver
+35-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:27:9-35:20
+36            android:name="com.example.reminderapp.BootUpReceiver"
+36-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:28:13-43
+37            android:enabled="true" >
+37-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:29:13-35
+38            <intent-filter>
+38-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:30:13-34:29
+39                <action android:name="android.intent.action.BOOT_COMPLETED" />
+39-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:31:17-79
+39-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:31:25-76
+40
+41                <category android:name="android.intent.category.DEFAULT" />
+41-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:33:17-76
+41-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:33:27-73
+42            </intent-filter>
+43        </receiver>
+44        <receiver android:name="com.example.reminderapp.AlarmBrodcast" />
+44-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:36:9-51
+44-->D:\BCA\Term 6\ReminderApp\app\src\main\AndroidManifest.xml:36:19-48
+45    </application>
+46
+47</manifest>

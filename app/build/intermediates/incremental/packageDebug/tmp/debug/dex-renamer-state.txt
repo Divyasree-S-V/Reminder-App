@@ -1,0 +1,7 @@
+#Wed May 01 19:40:51 IST 2024
+base.1=D\:\\BCA\\Term 6\\ReminderApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+path.1=classes.dex
+base.0=D\:\\BCA\\Term 6\\ReminderApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
